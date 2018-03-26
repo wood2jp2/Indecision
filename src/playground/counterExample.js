@@ -48,7 +48,7 @@ Counter.defaultProps = {
     count: 0
 }
 
-ReactDOM.render(<Counter />, document.getElementById('app'))
+ReactDOM.render(<Counter count={-321} />, document.getElementById('app'))
 
 // let count = 0
 // const myId = 'someId'
