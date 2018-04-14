@@ -6,6 +6,7 @@ const Options = props => (
             {props.options.length === 0 && <p>There are no options to display!</p>}
             <button 
                onClick={props.handleDeleteOptions}
+               className='button button--link'
             >Remove All</button>
             {props.options && props.options.map((opt, i) => (
                 <Option 
