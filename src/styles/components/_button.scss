@@ -8,6 +8,7 @@
     margin-bottom: $xlsize;
     padding: 2.4rem;
     width: 100%;
+    border-radius: $borderradius;
 } 
 
 .big-button:disabled {
@@ -22,6 +23,7 @@
     color: white;
     font-weight: 500;
     padding: $ssize;
+    border-radius: $borderradius;
 }
 
 .button--link {
