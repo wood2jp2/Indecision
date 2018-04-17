@@ -5,7 +5,7 @@
     color: white;
     font-weight: bold;
     font-size: $lsize;
-    margin-bottom: $xlsize;
+    margin-bottom: $msize;
     padding: 2.4rem;
     width: 100%;
     border-radius: $borderradius;
@@ -33,4 +33,8 @@
     padding: 0;
 }
 
-//
+@media (min-width: $desktop-breakpoint) {
+    .big-button {
+        margin-bottom: $xlsize
+    }
+}
